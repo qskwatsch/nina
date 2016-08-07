@@ -2,31 +2,49 @@
 
 /* tag principali */
 
-body {background-color: #E0E0E0;font-family: Serif;letter-spacing: 3px;}
+body {background-color: #E0E0E0;
+/*letter-spacing: 3px;*/ 
+font-family: "Georgia", Times, serif;
+font-size: 100%;
 
-h1 {color: #181818;} h2 {color: #181818;} h3 {color: #181818;}
-p {color: #000000; text-indent: 50px; text-align: justify;}
-a {text-decoration:none; color: #282828;
+}
+
+h1 { font-size: 4em;
+color: #181818;} 
+
+h2 {
+    font-size: 3em;}
+	h3 {
+    font-size: 1,5em;}
+
+p {
+
+line-height: 1.5;
+font-size: 1.5em;
+color: #000000; /*text-indent: 50px;*/
+ text-align: justify;}
+ 
+ 
+a {/*text-decoration:none;*/
+ color: #282828;
  /*font-style: italic;  *****e perché?*** */
  
  }
-
- 
-/* div {text-align: center; font-size: larger;}   */
 
 a:link {background-color:transparent;}
 a:visited {background-color: transparent;}
 a:hover {background-color: #FFFFFF;}
 a:active {background-color: #FFFFFF;}
+ 
+ 
+ 
+/* div {text-align: center; font-size: larger;}   */
 
-.language {color: black; font-variant: small-caps; font-size: larger}
-/*.social {text-align: left}*/
 
 
-table, td {border: 1px solid black;border-collapse: collapse;}
-th {border: 1px solid black;border-collapse: collapse; background-color: #afaf83; color: #1f1f14}
 
-/*STILE MENU PRINCIPALE*/
+
+/*STILE TESTATA E MENU PRINCIPALE*/
 .menu-ul {
 	position: fixed;  /*resta sopra sempre e il contenuto scorre*/
     top: 0;
@@ -68,11 +86,37 @@ display: block;
     height: auto;
 }
 
+/*
+.floating-box {
+    display: inline-block;
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
+}*/
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+.language {
+/*color: black; 
+font-variant: small-caps; font-size: larger}
+.social {text-align: left}*/
+
+
+table, td {border: 1px solid black;border-collapse: collapse;}
+th {border: 1px solid black;border-collapse: collapse; background-color: #afaf83; color: #1f1f14}
 
 
 
