@@ -3,24 +3,24 @@
 /* tag principali */
 
 body {background-color: #E0E0E0;
-/*letter-spacing: 3px;*/ 
+letter-spacing: 3px;
 font-family: "Georgia", Times, serif;
 font-size: 100%;
 
 }
 
-h1 { font-size: 4em;
-color: #181818;} 
+h1 {
+    font-size: 4em;} 
 
 h2 {
-    font-size: 3em;}
-	h3 {
-    font-size: 1,5em;}
+    font-size:1.5em}
+h3 {
+    font-size: 1em;}
 
 p {
 
 line-height: 1.5;
-font-size: 1.5em;
+font-size: 1em;
 color: #000000; /*text-indent: 50px;*/
  text-align: justify;}
  
@@ -52,7 +52,7 @@ a:active {background-color: #FFFFFF;}
     list-style-type: none;  /*TOGLIE I PUNTI DELLA LISTA*/
     margin: 0;
     padding: 0;
-	overflow: hidden;
+/*	overflow: hidden;*/
     background-color: #123;
 }
 
@@ -70,7 +70,7 @@ a:active {background-color: #FFFFFF;}
 
 /* cambio colore menu quando passo sopra */
 .menu-li a:hover {
-    background-color: #528;
+    background-color: #8b668b;
 }
 
 /* la voce di menu attiva cambia colore */
@@ -86,6 +86,9 @@ display: block;
     height: auto;
 }
 
+.social {font-size: 80%}
+
+
 /*
 .floating-box {
     display: inline-block;
@@ -96,17 +99,13 @@ display: block;
 }*/
 
 
+table, th, td {
+   border: 1px solid black;
+}
 
-
-
-
-
-
-
-
-
-
-
+.table a:hover {
+    background-color: #8b668b;
+}
 
 
 .language {
@@ -115,8 +114,7 @@ font-variant: small-caps; font-size: larger}
 .social {text-align: left}*/
 
 
-table, td {border: 1px solid black;border-collapse: collapse;}
-th {border: 1px solid black;border-collapse: collapse; background-color: #afaf83; color: #1f1f14}
+
 
 
 
