@@ -1,63 +1,76 @@
 
+/* STILI GENERALI */
 
-/* tag principali */
+* {
+    box-sizing: border-box; /* con questo comando qualuncue width INCLUDE border e padding cfr w3c border box */
+}
 
 body {background-color: #E0E0E0;
 letter-spacing: 3px;
 font-family: "Georgia", Times, serif;
 font-size: 100%;
-
 }
 
 h1 {
     font-size: 4em;} 
-
 h2 {
     font-size:1.5em}
 h3 {
     font-size: 1em;}
 
 p {
-
 line-height: 1.5;
 font-size: 1em;
 color: #000000; /*text-indent: 50px;*/
- text-align: justify;}
- 
- 
+text-align: justify;}
+  
 a {/*text-decoration:none;*/
  color: #282828;
  /*font-style: italic;  *****e perché?*** */
- 
- }
+  }
 
 a:link {background-color:transparent;}
 a:visited {background-color: transparent;}
 a:hover {background-color: #FFFFFF;}
 a:active {background-color: #FFFFFF;}
  
- 
- 
-/* div {text-align: center; font-size: larger;}   */
+img {
+    max-width: 100%; /*le immagini non diventano mai più grandi dell'originale*/
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    float: right; 
+}
 
+table, th, td {
+   border: 1px solid black;
+}
 
-
+.table a:hover {
+    background-color: #8b668b;
+}
 
 
 /*STILE TESTATA E MENU PRINCIPALE*/
+
 .menu-ul {
-	position: fixed;  /*resta sopra sempre e il contenuto scorre*/
-    top: 0;
+    float:left;
     width: 100%;
-    list-style-type: none;  /*TOGLIE I PUNTI DELLA LISTA*/
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+    padding: 0px;
 /*	overflow: hidden;*/
-    background-color: #123;
-}
+   }
 
 .menu-li {
+    list-style-type: none;
+	margin:0px;
+    border:0px;
+    padding:0px;
+	background-color: #123;
     float: left;
+    list-style-type: none;  /*toglie i punti della lista*/
 }
 
 .menu-li a {
@@ -80,13 +93,38 @@ a:active {background-color: #FFFFFF;}
 
 /*stile immagine testata*/
 .header-img {
-display: block;
     margin: auto;
     max-width: 100%;
     height: auto;
+
+
 }
 
-.social {font-size: 80%}
+
+
+
+/* COLONNE PER LAYOUT FLUIDO */
+#col1 {
+padding-top: 1%;
+width: 55%;
+margin-right: 2%;
+float: left; 
+}
+#col2 {
+padding-top: 1%;
+width: 43%;
+float: left; 
+}
+
+
+
+/*ALTRO*/
+
+
+/* div {text-align: center; font-size: larger;}   */
+
+
+/* .social {font-size: 80%}*/
 
 
 /*
@@ -99,20 +137,11 @@ display: block;
 }*/
 
 
-table, th, td {
-   border: 1px solid black;
-}
-
-.table a:hover {
-    background-color: #8b668b;
-}
-
-
+/*
 .language {
-/*color: black; 
-font-variant: small-caps; font-size: larger}
+color: black; 
+font-variant: small-caps/*; font-size: larger}
 .social {text-align: left}*/
-
 
 
 
