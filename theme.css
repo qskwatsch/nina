@@ -1,0 +1,154 @@
+
+/* STILI GENERALI */
+
+* {
+    box-sizing: border-box; /* con questo comando qualuncue width INCLUDE border e padding cfr w3c border box */
+}
+
+body {background-color: #E0E0E0;
+letter-spacing: 3px;
+font-family: "Georgia", Times, serif;
+font-size: 100%;
+}
+
+h1 {
+    font-size: 4em;} 
+h2 {
+    font-size:1.5em}
+h3 {
+    font-size: 1em;}
+
+p {
+line-height: 1.5;
+font-size: 1em;
+color: #000000; /*text-indent: 50px;*/
+text-align: justify;}
+  
+a {/*text-decoration:none;*/
+ color: #282828;
+ /*font-style: italic;  *****e perché?*** */
+  }
+
+a:link {background-color:transparent;}
+a:visited {background-color: transparent;}
+a:hover {background-color: #FFFFFF;}
+a:active {background-color: #FFFFFF;}
+ 
+img {
+    max-width: 100%; /*le immagini non diventano mai più grandi dell'originale*/
+    height: auto;
+    margin: auto;
+    border: 1px solid;
+    float: right; 
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+.table a:hover {
+    background-color: #8b668b;
+}
+
+
+/*STILE TESTATA E MENU PRINCIPALE*/
+
+.menu-ul {
+    float:left;
+    width: 100%;
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+    padding: 0px;
+/*	overflow: hidden;*/
+   }
+
+.menu-li {
+    list-style-type: none;
+	margin:0px;
+    border:0px;
+    padding:0px;
+	background-color: #123;
+    float: left;
+    list-style-type: none;  /*toglie i punti della lista*/
+}
+
+.menu-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* cambio colore menu quando passo sopra */
+.menu-li a:hover {
+    background-color: #8b668b;
+}
+
+/* la voce di menu attiva cambia colore */
+.active {
+    background-color: #594;
+}
+
+/*stile immagine testata*/
+.header-img {
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
+
+
+/* COLONNE PER LAYOUT FLUIDO */
+#col1 {
+padding-top: 1%;
+width: 55%;
+margin-right: 2%;
+float: left; 
+}
+#col2 {
+padding-top: 1%;
+width: 43%;
+float: left; 
+}
+
+
+
+/*ALTRO*/
+
+
+/* div {text-align: center; font-size: larger;}   */
+
+
+/* .social {font-size: 80%}*/
+
+
+/*
+.floating-box {
+    display: inline-block;
+    width: 100%;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21; 
+}*/
+
+
+/*
+.language {
+color: black; 
+font-variant: small-caps/*; font-size: larger}
+.social {text-align: left}*/
+
+
+
+
+
+
+
+
+
+
