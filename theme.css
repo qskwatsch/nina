@@ -39,7 +39,7 @@ img {
     height: auto;
     margin: auto;
     border: 1px solid;
-    float: right; 
+    float: left; 
 }
 
 table, th, td {
@@ -99,7 +99,6 @@ table, th, td {
 float:left;
 
 }
-
 
 
 
