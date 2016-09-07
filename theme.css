@@ -38,6 +38,7 @@ img {
     max-width: 100%; /*le immagini non diventano mai più grandi dell'originale*/
     height: auto;
     margin: auto;
+margin-top: 20px;
     border: 1px solid;
     float: left; 
 }
@@ -53,14 +54,16 @@ table, th, td {
 
 /*STILE TESTATA E MENU PRINCIPALE*/
 
+
 .menu-ul {
+    
     float:left;
     width: 100%;
 	list-style-type: none;
 	margin: 0px;
 	border: 0px;
     padding: 0px;
-/*	overflow: hidden;*/
+	overflow: hidden;
    }
 
 .menu-li {
