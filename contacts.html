@@ -1,94 +1,101 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>BedandBreakfast</title>
-    <link type="text/css" rel="stylesheet" href="theme.css"/>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link type="text/css" rel="stylesheet" href="theme.css">
+
+	<title>BedandBreakfast</title>
+
 </head>
 
 <body>
 
-        <!-- TESTATA SITO - MENU E IMMAGINE --> 
 
-		<!-- MENU PRINCIPALE --> 
-		<nav>
-		<ul class="menu-ul">
-			<li  class="menu-li"  > <a href="homeen.html" target="_self">Home</a> </li>
+	<!-- TESTATA SITO - MENU E IMMAGINE --> 
+
+			<!-- MENU PRINCIPALE --> 
+
+			<div class="container">
+			<ul class="menu-ul">
+
+		<li  class="menu-li"> <a href="homeen.html" target="_self">Home</a> </li>
 		<li  class="menu-li"> <a href="aboutus.html" target="_self">About us</a> </li>
 		<li  class="menu-li"> <a href="rooms.html" target="_self">Rooms</a></li>
 		<li  class="menu-li"> <a href="prices.html" target=_self>Prices</a></li>
 		<li  class="menu-li"> <a href="howtoreachus.html" target="_self">How to reach us</a></li>
 		<li  class="menu-li active"> <a href="contacts.html" target="_self">Contacts</a></li>
-				<!-- menu sezione cambio lingua --> 
-			<li  class="menu-li"> <a href="index.html" target="_self"> <span class="language">ITA</span></a><li>
-	<li  class="menu-li"> <a href="homeen.html" target="_self"> <span class="language">ENG</span></a></li>
-	<!-- fine menu sezione cambio lingua --> 
-		</ul>
-		</nav>
-		<!-- FINE MENU PRINCIPALE --> 
+			<!-- menu sezione cambio lingua --> 
+			<li  class="menu-li"> <a href="index.html" target="_self"> ITA</a></li>
+			<li  class="menu-li"> <a href="homeen.html" target="_self"> ENG</a></li>
+			<!-- fine menu sezione cambio lingua --> 
 
-		<!-- IMMAGINE DELLA TESTATA --> 
-		<img class="header-img" src="immagini/magnolia-head-1364x400.jpg">
+			</ul>
+			</div>
+			<!-- FINE MENU PRINCIPALE --> 
 
-		<!-- FINE TESTATA SITO --> 
-
-
-<h1 align="center"> Nina 7  </h1>
-<h2 align="center"> Bed&Breakfast</h2>
-<h3 align="center"> Via Antonio Rosmini,7 - Treviso</h3>
-<br>
-<br>
-
-<p> <strong> <div>Feel at home...</div></strong> </p>
+			<!-- IMMAGINE DELLA TESTATA --> 
+			<img class="header-img" alt="magnolia-header" src="immagini/magnolia-head-1374.jpg">
 
 
+	<!-- FINE TESTATA SITO --> 
 
-<br>
-<br>
-<img src="immagini/ilaria.jpg" width="300">
-<img src="immagini/garden1.jpg" width="300">
-<img src="immagini/bedroom1.jpg" width="300">
-<br>
-<p>
-    
-A pochi passi dalle mura del centro storico di Treviso trovate Nina 7, un'accogliente villa del primo'900
-immersa nel verde di un tranquillo quartiere residenziale. Nina 7 dispone di 3 stanze con bagno privato,
-una sala per la prima colazione, una zona relax e un rigoglioso giardino arredato. 
-Per la prima colazione, oltre al tradizionale cornetto e cappuccino, offriamo una varietà di dolci e biscotti fatti in casa, pane fresco, succhi naturali,
-centrifughe di frutta e verdura con ingredienti Bio provenienti dalle nostre zone.
-
-
-Ilaria attenderà voi viaggiatori e le vostre storie, per farvi sentire come a casa.
-
-</p>    
-    
-
-<br>
-<br>
-<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br><!--  SOCIAL E  FOOTER --> 
-		<br>
-		<br><br><footer>
+	<!-- FORM CONTATTI --> 
 		
-		<h2 style="text-align: center;">Nina 7 Bed&amp;Breakfast</h2>
-		<h3 style="text-align: center;">Via Antonio Rosmini 7 | Treviso</h3>
+		<div id="col1">
+
+			<form name="Name" action="" method="POST" enctype="application/x-www-form-urlencoded">
+			<br>
+			Name <input type="text" name="name" value="" size="40" maxlength="40"  min="" max="" accept=""/>
+			<br><br>
+			Surname <input type="text" name="surname" value="" size="40" maxlength="40"  min="" max="" accept=""/>
+			<br><br>
+			Email address <input type="text" name="email" value="" size="40" maxlength="40"  min="" max="" accept=""/>
+			<br><br>
+			
+			Select a room type
+			<select name="Room type">
+			<option> MAGNOLIA </option>
+			<option> OLEANDRO </option>
+			<option> ORTENSIA </option>
+			</select>
+			<br><br>
+
+			Comments <br><textarea name="comments" cols="70" rows="5" wrap="SOFT"></textarea>
+			<br>
+			<input type="submit" value="Submit"> <input type="reset" value="Reset"/></form>
+		</div>
+
+
+		<div id="col2"> 
+		<img src="immagini/ilaria.jpg" alt="ilaria" style="width:300px; float:right">
+		</div>
+		
+
+
+	<!--  SOCIAL E  FOOTER --> 
+
+		<footer>
+
 		<hr>
-	
-		<p class="social">
-		Seguici su <a href="www.facebook.com"> <img src="immagini/fb.png" width="30px" align="center"></a>
-		Condividi i tuoi ricordi su <a href="www.instagram.com"> <img src="immagini/instagram.png" width="30px" align="center"> </a>
+		<h2>Nina 7 Bed&amp;Breakfast</h2>
+		<h3>Via Antonio Rosmini 7 | Treviso</h3>
+		<hr>
+
+		<a href="http://www.facebook.com"> <img class="social-logo" src="immagini/fb.png" width="42"
+		alt="facebooklogo" ></a>  
+		<a href="http://www.instagram.com" > <img class="social-logo"   src="immagini/instagram.png"
+		width="44" alt="instagramlogo" ></a> 
 		</p>
-</footer>
-
-		<!--  FINE FOOTER --> 
 
 
+		</footer>
+
+	<!--  FINE FOOTER --> 
 
 
-</body>
-</html>
+
+</body></html>
